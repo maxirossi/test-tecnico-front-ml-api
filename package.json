@@ -1,0 +1,28 @@
+{
+  "name": "magneto",
+  "version": "1.0.0",
+  "description": "Magneto Search ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxirossi/test-tecnico-front-ml-api.git"
+  },
+  "author": "Maximiliano Rossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxirossi/test-tecnico-front-ml-api/issues"
+  },
+  "homepage": "https://github.com/maxirossi/test-tecnico-front-ml-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
